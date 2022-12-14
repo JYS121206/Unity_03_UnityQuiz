@@ -62,7 +62,7 @@ public class UIQuiz : MonoBehaviour
         if (quizNum < quizList.Length)
         {
             SetQuizUI();
-            Debug.Log($"다음 퀴즈입니다.");
+            //Debug.Log($"다음 퀴즈입니다.");
         }
 
         else
@@ -74,8 +74,8 @@ public class UIQuiz : MonoBehaviour
 
     public void OnAnswer(int answer)
     {
-        Debug.Log($"내가 고른 답: {answer}");
-        Debug.Log($"정답: {quizList[quizNum].correctAnswer}");
+        //Debug.Log($"내가 고른 답: {answer}");
+        //Debug.Log($"정답: {quizList[quizNum].correctAnswer}");
 
         if (answer == quizList[quizNum].correctAnswer)
         {
